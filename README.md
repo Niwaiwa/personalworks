@@ -20,9 +20,20 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## install
 
-next.js and materail-ui
+next.js and material-ui
 
 ```bash
 yarn create next-app --typescript project_name
-yarn add @mui/material @emotion/react @emotion/styled
+yarn add @mui/material @emotion/react @emotion/styled @emotion/server
+```
+
+Put external CSS in pages/_document.tsx
+
+```tsx
+      <Head>
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        />
+      </Head>
 ```
