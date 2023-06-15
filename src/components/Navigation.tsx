@@ -24,9 +24,7 @@ export default function Navigation() {
             <Button color="inherit" sx={buttonCusStyle}>Portfolio</Button>
         </Link>
         <Button color="inherit" sx={buttonCusStyle}>Tech note</Button>
-        <Link href="https://github.com/Niwaiwa" passHref>
-            <Button color="primary" variant="contained" sx={{ textTransform: 'capitalize' }}>Github</Button>
-        </Link>
+        <Button color="primary" variant="contained" sx={{ textTransform: 'capitalize' }} href="https://github.com/Niwaiwa">Github</Button>
         {/* Add more navigation buttons as needed */}
       </Toolbar>
     </AppBar>
