@@ -9,14 +9,18 @@ export default function Navigation() {
           Niwa Garden
         </Typography>
         <Link href="/" passHref>
-          <Button color="primary" sx={{ marginRight: 2, color: 'black' }}>Home</Button>
+          <Button color="primary" sx={{ marginRight: 2, color: 'black', textTransform: 'capitalize' }}>Home</Button>
         </Link>
         <Link href="/profile" passHref>
-          <Button color="primary" sx={{ marginRight: 2, color: 'black' }}>Profile</Button>
+          <Button color="primary" sx={{ marginRight: 2, color: 'black', textTransform: 'capitalize'  }}>Profile</Button>
         </Link>
-        <Button color="inherit" sx={{ marginRight: 2 }}>Portfolio</Button>
-        <Button color="inherit" sx={{ marginRight: 2 }}>Tech note</Button>
-        <Button color="primary" variant="contained">Github</Button>
+        <Link href="/portfolio" passHref>
+            <Button color="inherit" sx={{ marginRight: 2, color: 'black', textTransform: 'capitalize'  }}>Portfolio</Button>
+        </Link>
+        <Button color="inherit" sx={{ marginRight: 2, color: 'black', textTransform: 'capitalize'  }}>Tech note</Button>
+        <Link href="https://github.com/Niwaiwa" passHref>
+            <Button color="primary" variant="contained" sx={{ textTransform: 'capitalize' }}>Github</Button>
+        </Link>
         {/* Add more navigation buttons as needed */}
       </Toolbar>
     </AppBar>
