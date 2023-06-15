@@ -1,6 +1,12 @@
 import Link from 'next/link';
 import { AppBar, Toolbar, Typography, Button } from '@mui/material';
 
+const buttonCusStyle = {
+    marginRight: 2,
+    color: 'black',
+    textTransform: 'capitalize'
+}
+
 export default function Navigation() {
   return (
     <AppBar position="static" color="transparent" elevation={0}>
@@ -9,15 +15,15 @@ export default function Navigation() {
           Niwa Garden
         </Typography>
         <Link href="/" passHref>
-          <Button color="primary" sx={{ marginRight: 2, color: 'black', textTransform: 'capitalize' }}>Home</Button>
+          <Button color="primary" sx={buttonCusStyle}>Home</Button>
         </Link>
         <Link href="/profile" passHref>
-          <Button color="primary" sx={{ marginRight: 2, color: 'black', textTransform: 'capitalize'  }}>Profile</Button>
+          <Button color="primary" sx={buttonCusStyle}>Profile</Button>
         </Link>
         <Link href="/portfolio" passHref>
-            <Button color="inherit" sx={{ marginRight: 2, color: 'black', textTransform: 'capitalize'  }}>Portfolio</Button>
+            <Button color="inherit" sx={buttonCusStyle}>Portfolio</Button>
         </Link>
-        <Button color="inherit" sx={{ marginRight: 2, color: 'black', textTransform: 'capitalize'  }}>Tech note</Button>
+        <Button color="inherit" sx={buttonCusStyle}>Tech note</Button>
         <Link href="https://github.com/Niwaiwa" passHref>
             <Button color="primary" variant="contained" sx={{ textTransform: 'capitalize' }}>Github</Button>
         </Link>
