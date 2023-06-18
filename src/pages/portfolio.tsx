@@ -37,7 +37,6 @@ const portfolioData = [
 function Portfolio() {
   return (
     <Container>
-        <Navigation />
         <Grid container spacing={3} sx={{ marginTop: 5 }}>
         {portfolioData.map((project, index) => {
             return (
@@ -69,7 +68,6 @@ function Portfolio() {
             );
         })}
         </Grid>
-      <Footer />
     </Container>
   );
 }

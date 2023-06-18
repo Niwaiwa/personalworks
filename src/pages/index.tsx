@@ -8,7 +8,6 @@ import Footer from '../components/Footer';
 export default function HomePage() {
   return (
     <Container>
-      <Navigation />
       <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" minHeight="60vh">
         <Typography variant="h3" gutterBottom>
           My site and portfolio
@@ -41,7 +40,6 @@ export default function HomePage() {
           </Box>
         </Grid>
       </Grid>
-      <Footer />
     </Container>
   );
 }

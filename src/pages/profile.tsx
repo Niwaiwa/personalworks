@@ -5,7 +5,6 @@ import Footer from '../components/Footer';
 export default function ProfilePage() {
   return (
     <Container>
-      <Navigation />
       <Box sx={{ marginTop: 4, marginBottom: 12 }}>
         <Grid container spacing={2} marginLeft={5}>
           <Grid item xs={12} sm={4} display="flex" flexDirection="column" justifyContent="center" alignItems="center">
@@ -46,7 +45,6 @@ export default function ProfilePage() {
           </TableBody>
         </Table>
       </Box>
-      <Footer />
     </Container>
   );
 }
