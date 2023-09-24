@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  frontend:
+    image: 'personalworks:latest'
+    build:
+      context: .
+      dockerfile: frontend.dockerfile
+    networks:
+      - personalworks_network
+    ports:
+      - "9001:3000"
+
+networks:
+  personalworks_network:

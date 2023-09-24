@@ -12,7 +12,7 @@ export default function Navigation() {
     <AppBar position="static" color="transparent" elevation={0}>
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          Niwa Garden
+          Niwaiwa Personal Works
         </Typography>
         <Link href="/" passHref>
           <Button color="primary" sx={buttonCusStyle}>Home</Button>
