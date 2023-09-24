@@ -15,7 +15,7 @@ export default function ProfilePage() {
               LIU ALAN
             </Typography>
             <Typography variant="subtitle1">
-              7+ years Software engineer
+              7 years Backend Engineer
             </Typography>
           </Grid>
         </Grid>
@@ -28,7 +28,7 @@ export default function ProfilePage() {
           <TableBody>
             <TableRow>
               <TableCell variant="head">Programming language</TableCell>
-              <TableCell>Python, PHP, Javascript, Go</TableCell>
+              <TableCell>Python, PHP, Javascript, Go, Shell script</TableCell>
             </TableRow>
             <TableRow>
               <TableCell variant="head">Framework</TableCell>
@@ -40,7 +40,7 @@ export default function ProfilePage() {
             </TableRow>
             <TableRow>
               <TableCell variant="head">Others</TableCell>
-              <TableCell>Linux(Ubuntu, CentOS), AWS, EFK stack, Docker, Gitlab CI, Jmeter, RabbitMQ, Nginx, Apache, PMM(Percona Monitoring and Management)</TableCell>
+              <TableCell>Linux(Ubuntu, CentOS), AWS(S3, EC2, Lambda), EFK stack, Docker, Gitlab CI, Jmeter, RabbitMQ, Nginx, PMM(Percona Monitoring and Management)</TableCell>
             </TableRow>
           </TableBody>
         </Table>
