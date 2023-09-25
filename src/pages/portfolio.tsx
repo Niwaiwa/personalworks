@@ -19,7 +19,7 @@ const portfolioData = [
       description: "A video site backend use fastapi.",
       image: "https://example.com/image2.jpg",
       browseUrl: "",
-      githubUrl: "https://github.com/Niwaiwa/Vara_frontend",
+      githubUrl: "https://github.com/Niwaiwa/vara_backend_fastapi",
       tags: ["Python", "Backend", "FastAPI"],
     },
     {
