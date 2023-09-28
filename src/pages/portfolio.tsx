@@ -37,9 +37,6 @@ function Portfolio() {
     <Container>
         <Grid container spacing={3} sx={{ marginTop: 5 }}>
           <Grid item xs={12} sm={12} md={12} sx={{ marginBottom: 3 }}>
-              <Typography variant="h3" gutterBottom>
-                  Portfolio
-              </Typography>
               <Box sx={{ marginTop: 2 }} >
                   {tagList.map((tag, index) => {
                       return (

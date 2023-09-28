@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { AppBar, Toolbar, Typography, Button } from '@mui/material';
+import { AppBar, Toolbar, Typography, Button, Icon, Avatar } from '@mui/material';
+
 
 const buttonCusStyle = {
     marginRight: 2,
@@ -23,8 +24,16 @@ export default function Navigation() {
         <Link href="/portfolio" passHref>
             <Button color="inherit" sx={buttonCusStyle}>Portfolio</Button>
         </Link>
-        <Button color="inherit" sx={buttonCusStyle}>Tech note</Button>
-        <Button color="primary" variant="contained" sx={{ textTransform: 'capitalize' }} href="https://github.com/Niwaiwa">Github</Button>
+        {/* <Button color="inherit" sx={buttonCusStyle}>Tech note</Button> */}
+        <Button 
+          color="primary" 
+          variant="contained" 
+          sx={{ textTransform: 'capitalize' }} 
+          href="https://github.com/Niwaiwa"
+          startIcon={<Avatar src="/github-mark-white.png" sx={{ width: 20, height: 20 }} />}
+        >
+          Github
+        </Button>
         {/* Add more navigation buttons as needed */}
       </Toolbar>
     </AppBar>
